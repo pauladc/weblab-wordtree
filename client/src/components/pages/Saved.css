@@ -1,0 +1,19 @@
+.container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}

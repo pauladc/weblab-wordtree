@@ -1,0 +1,42 @@
+/* Fill me in :) */
+
+.Story-preview {
+  padding: 10px;
+  position: relative;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 36px;
+  width: 581px;
+  height: 185px;
+  display: inline-block;
+  flex-wrap: nowrap;
+  overflow-x: horizontal;
+  overflow-y: hidden;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000000;
+  background: rgba(233, 196, 106, 0.75);
+  border-radius: 25px;
+}
+.leftPadding {
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.Genre {
+  position: relative;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #2a9d8f;
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba;
+}

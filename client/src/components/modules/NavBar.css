@@ -1,0 +1,57 @@
+.NavBar-container {
+  padding: var(--s) var(--m);
+  width: 100%;
+  background-color: #f4a261;
+}
+
+.logo-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  float: left;
+  background-size: cover;
+  background-image: url("../../public/icon.png");
+}
+
+.NavBar-title {
+  color: #2a9d8f;
+  font-size: 30px;
+  line-height: 44px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.NavBar-linkContainer {
+  margin-left: --l;
+  float: right;
+  padding: 10px;
+}
+
+.NavBar-link {
+  font-size: 24px;
+  justify-content: right;
+  color: #2a9d8f;
+}
+
+.NavBar-link:hover {
+  color: white;
+}
+.NavBar-link:visited {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  opacity: 0.8;
+}
+
+.NavBar-link.NavBar-login {
+  opacity: 1;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}
